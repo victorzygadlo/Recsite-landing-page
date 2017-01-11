@@ -74,6 +74,7 @@ body {
   border: 1px solid #555;
   box-shadow: none;
   border-radius: 0px !important;
+  margin-bottom: 32px;
 }
 
 .p_form_small {
@@ -91,16 +92,20 @@ body {
 }
 
 input::-webkit-input-placeholder {
-color: #0a3441 !important;
-font-size: 18px;
+  color: #0a3441 !important;
+  font-size: 18px;
 }
 
 #end_form {
   text-align: center;
+  margin-left: -207px;
+  margin-bottom: 55px;
 }
 
 #checkbox_accept {
   margin-left: 30px;
+  word-wrap: break-word;
+  width: 14em;
 }
 
 #btn_form {
@@ -130,6 +135,11 @@ font-size: 18px;
   margin-left: -43px;
 }
 
+#btn-form_area {
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
 input[type=checkbox] {
 	visibility: hidden;
 }
@@ -137,12 +147,7 @@ input[type=checkbox] {
 .squaredTwo {
 	width: 28px;
 	height: 28px;
-	background: #fcfff4;
-	background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-	background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-	background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-	background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
-	background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: #fff;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
 	margin: 20px auto;
 	-webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
@@ -159,16 +164,7 @@ input[type=checkbox] {
 	height: 20px;
 	left: 4px;
 	top: 4px;
-
-	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
-	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
-	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,1);
-
-	background: -webkit-linear-gradient(top, #222 0%, #45484d 100%);
-	background: -moz-linear-gradient(top, #222 0%, #45484d 100%);
-	background: -o-linear-gradient(top, #222 0%, #45484d 100%);
-	background: -ms-linear-gradient(top, #222 0%, #45484d 100%);
-	background: linear-gradient(top, #222 0%, #45484d 100%);
+  background-color: #fff;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d',GradientType=0 );
 }
 
@@ -178,15 +174,14 @@ input[type=checkbox] {
   opacity: 0;
   content: '';
   position: absolute;
-  width: 14px;
-  height: 7px;
+  width: 16px;
+  height: 8px;
   background: transparent;
   top: 5px;
   left: 3px;
-	border: 3px solid #fcfff4;
-	border-top: none;
-	border-right: none;
-
+  border: 3px solid #1ba8f4;
+  border-top: none;
+  border-right: none;
 	-webkit-transform: rotate(-45deg);
 	-moz-transform: rotate(-45deg);
 	-o-transform: rotate(-45deg);
@@ -205,3 +200,40 @@ input[type=checkbox] {
 	filter: alpha(opacity=100);
 	opacity: 1;
 }
+
+#testemonials {
+  background-color: #e8f6fe;
+  margin: 40px 400px 20px 365px;
+  padding: 10px 10px 10px 25px;
+}
+
+#claire_image {
+  background-image: url(../images/claire.jpg);
+  background-position: center;
+  width: 310px;
+  height: 280px;
+}
+
+#testemonials_title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+#testemonials_p {
+  font-size: 23px;
+  margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
